@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+canvas {
+    display: block;
+  }
+
+#title{
+  position: absolute;
+	bottom: 60px;
+  left: 60px;
+	width: 100%;
+  color: aliceblue;
+	/* text-align: center; */
+	z-index: 100;
+	display:block;
+}
+#desc{
+  position: absolute;
+	bottom: 30px;
+  left: 60px;
+	width: 100%;
+	/* text-align: center; */
+	z-index: 100;
+	display:block;
+}
+
+#desc a{
+  text-decoration: none;
+}
+
+#prev-btn{
+  position: absolute;
+  left: -30px;
+  top: 45%;
+	/* text-align: center; */
+	z-index: 100;
+	display:block;
+}
+
+#next-btn{
+  position: absolute;
+  top:45%;
+  right: -30px;
+	z-index: 100;
+	display:block;
+}
